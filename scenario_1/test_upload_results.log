@@ -1,0 +1,945 @@
+2025-12-19 12:07:23,875 - INFO - ============================================================
+2025-12-19 12:07:23,875 - INFO - No Delay
+2025-12-19 12:07:23,876 - INFO - ============================================================
+2025-12-19 12:07:23,876 - INFO - ============================================================
+2025-12-19 12:07:23,876 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:07:23,876 - INFO - Timestamp: 2025-12-19 05:07:23
+2025-12-19 12:07:23,877 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:07:23,877 - INFO - Bucket: test-bucket
+2025-12-19 12:07:23,877 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:07:23,877 - INFO - Parallel Uploads: 10
+2025-12-19 12:07:23,877 - INFO - ============================================================
+2025-12-19 12:07:23,878 - INFO - MinIO client initialized successfully
+2025-12-19 12:07:23,973 - INFO - Bucket 'test-bucket' created successfully
+2025-12-19 12:07:23,973 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:07:23,973 - INFO - ------------------------------------------------------------
+2025-12-19 12:07:23,974 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:23,975 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:23,976 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:23,977 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:23,987 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:23,997 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:24,052 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:24,074 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:24,076 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:24,102 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:07:28,733 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:29,663 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:29,664 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:29,678 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:29,683 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:29,713 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:29,943 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:29,981 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:30,268 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 12:07:30,349 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:30,755 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:31,436 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:34,930 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,099 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,014 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,140 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,142 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,142 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,143 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,125 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,102 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,133 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,206 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,233 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,491 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:35,261 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,542 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,248 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,464 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:35,608 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:38,631 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:39,264 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:39,266 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:39,392 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:39,400 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:39,970 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:40,058 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:40,105 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:40,112 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:40,112 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:40,172 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 12:07:44,981 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:44,987 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:44,988 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:44,997 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:45,588 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:45,590 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:45,591 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,116 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,117 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,119 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,187 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,285 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:46,208 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:46,208 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:46,208 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:46,210 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,191 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:46,290 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:07:46,398 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 6
+2025-12-19 12:07:49,687 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,690 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,691 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,701 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,692 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,719 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,722 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,744 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,860 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,934 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,957 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,936 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,960 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,937 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,973 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:49,997 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:49,999 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:50,006 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:50,345 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:50,536 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:07:53,980 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:53,988 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:54,030 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:54,042 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:54,073 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:07:54,074 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:07:54,382 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:54,653 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:54,652 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,105 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,336 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,403 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,379 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,385 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,387 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,408 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:55,374 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,450 - INFO - [Upload 03] [SUCCESS] Finished in 34.472s (5.84 MB/s)
+2025-12-19 12:07:58,466 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,605 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,630 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,667 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,678 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,680 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,685 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,708 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,688 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,688 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,689 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,705 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,705 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,707 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,688 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,711 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:58,713 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:07:59,204 - INFO - [Upload 07] [SUCCESS] Finished in 35.132s (5.73 MB/s)
+2025-12-19 12:07:59,222 - INFO - [Upload 09] [SUCCESS] Finished in 35.072s (5.74 MB/s)
+2025-12-19 12:07:59,223 - INFO - [Upload 04] [SUCCESS] Finished in 35.241s (5.72 MB/s)
+2025-12-19 12:07:59,224 - INFO - [Upload 05] [SUCCESS] Finished in 35.232s (5.72 MB/s)
+2025-12-19 12:07:59,229 - INFO - [Upload 02] [SUCCESS] Finished in 35.252s (5.71 MB/s)
+2025-12-19 12:07:59,255 - INFO - [Upload 01] [SUCCESS] Finished in 35.279s (5.71 MB/s)
+2025-12-19 12:07:59,260 - INFO - [Upload 06] [SUCCESS] Finished in 35.262s (5.71 MB/s)
+2025-12-19 12:07:59,265 - INFO - [Upload 10] [SUCCESS] Finished in 35.051s (5.75 MB/s)
+2025-12-19 12:07:59,323 - INFO - [Upload 08] [SUCCESS] Finished in 35.235s (5.72 MB/s)
+2025-12-19 12:07:59,333 - INFO - ============================================================
+2025-12-19 12:07:59,334 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 12:07:59,334 - INFO - ============================================================
+2025-12-19 12:07:59,334 - INFO - Successful uploads: 10/10
+2025-12-19 12:07:59,335 - INFO - Failed uploads: 0
+2025-12-19 12:07:59,335 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 12:07:59,335 - INFO - Total wall-clock time: 35.360 seconds
+2025-12-19 12:07:59,335 - INFO - Total throughput: 56.97 MB/s
+2025-12-19 12:07:59,336 - INFO - Average individual upload time: 35.123 seconds
+2025-12-19 12:07:59,336 - INFO - Average individual upload speed: 5.74 MB/s
+2025-12-19 12:07:59,336 - INFO - ============================================================
+2025-12-19 12:07:59,336 - INFO - TEST COMPLETED
+2025-12-19 12:07:59,336 - INFO - ============================================================
+2025-12-19 12:09:31,075 - INFO - ============================================================
+2025-12-19 12:09:31,076 - INFO - Single Node Delay 2000ms 500ms
+2025-12-19 12:09:31,076 - INFO - ============================================================
+2025-12-19 12:09:31,076 - INFO - ============================================================
+2025-12-19 12:09:31,076 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:09:31,076 - INFO - Timestamp: 2025-12-19 05:09:31
+2025-12-19 12:09:31,076 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:09:31,076 - INFO - Bucket: test-bucket
+2025-12-19 12:09:31,076 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:09:31,077 - INFO - Parallel Uploads: 10
+2025-12-19 12:09:31,077 - INFO - ============================================================
+2025-12-19 12:09:31,077 - INFO - MinIO client initialized successfully
+2025-12-19 12:09:35,424 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 12:09:35,424 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:09:35,425 - INFO - ------------------------------------------------------------
+2025-12-19 12:09:35,426 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,427 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,428 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,429 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,433 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,438 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,455 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,479 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,522 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:09:35,523 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:15:12,391 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:14,209 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:14,517 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:14,838 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:15,909 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:18,428 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:20,535 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:22,449 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:22,752 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:25,034 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:25,906 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:27,706 - INFO - [Upload 06] [SUCCESS] Finished in 352.266s (0.57 MB/s)
+2025-12-19 12:15:29,135 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:29,935 - INFO - [Upload 07] [SUCCESS] Finished in 354.476s (0.57 MB/s)
+2025-12-19 12:15:31,303 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:31,307 - INFO - [Upload 10] [SUCCESS] Finished in 355.781s (0.57 MB/s)
+2025-12-19 12:15:31,375 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:31,375 - INFO - [Upload 05] [SUCCESS] Finished in 355.930s (0.57 MB/s)
+2025-12-19 12:15:35,536 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:35,539 - INFO - [Upload 08] [SUCCESS] Finished in 360.058s (0.56 MB/s)
+2025-12-19 12:15:36,106 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:36,107 - INFO - [Upload 03] [SUCCESS] Finished in 360.673s (0.56 MB/s)
+2025-12-19 12:15:37,846 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:37,853 - INFO - [Upload 01] [SUCCESS] Finished in 362.425s (0.56 MB/s)
+2025-12-19 12:15:40,884 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:40,888 - INFO - [Upload 09] [SUCCESS] Finished in 365.364s (0.55 MB/s)
+2025-12-19 12:15:41,262 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:41,266 - INFO - [Upload 04] [SUCCESS] Finished in 365.831s (0.55 MB/s)
+2025-12-19 12:15:43,564 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:15:43,565 - INFO - [Upload 02] [SUCCESS] Finished in 368.134s (0.55 MB/s)
+2025-12-19 12:15:43,573 - INFO - ============================================================
+2025-12-19 12:15:43,574 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 12:15:43,574 - INFO - ============================================================
+2025-12-19 12:15:43,574 - INFO - Successful uploads: 10/10
+2025-12-19 12:15:43,575 - INFO - Failed uploads: 0
+2025-12-19 12:15:43,575 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 12:15:43,575 - INFO - Total wall-clock time: 368.149 seconds
+2025-12-19 12:15:43,575 - INFO - Total throughput: 5.47 MB/s
+2025-12-19 12:15:43,575 - INFO - Average individual upload time: 360.094 seconds
+2025-12-19 12:15:43,576 - INFO - Average individual upload speed: 0.56 MB/s
+2025-12-19 12:15:43,576 - INFO - ============================================================
+2025-12-19 12:15:43,576 - INFO - TEST COMPLETED
+2025-12-19 12:15:43,576 - INFO - ============================================================
+2025-12-19 12:17:12,126 - INFO - ============================================================
+2025-12-19 12:17:12,127 - INFO - Two Node Delay 2000ms 500ms
+2025-12-19 12:17:12,127 - INFO - ============================================================
+2025-12-19 12:17:12,127 - INFO - ============================================================
+2025-12-19 12:17:12,127 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:17:12,127 - INFO - Timestamp: 2025-12-19 05:17:12
+2025-12-19 12:17:12,127 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:17:12,127 - INFO - Bucket: test-bucket
+2025-12-19 12:17:12,128 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:17:12,128 - INFO - Parallel Uploads: 10
+2025-12-19 12:17:12,128 - INFO - ============================================================
+2025-12-19 12:17:12,128 - INFO - MinIO client initialized successfully
+2025-12-19 12:17:18,684 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 12:17:18,685 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:17:18,687 - INFO - ------------------------------------------------------------
+2025-12-19 12:17:18,689 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,691 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,693 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,697 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,719 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,724 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,742 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,756 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,769 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:17:18,770 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:18:08,525 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,640 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,569 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,580 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:18:08,601 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,608 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,616 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,617 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,621 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,565 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,648 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,663 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,699 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,699 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:18:08,723 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,321 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,323 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,332 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,351 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,354 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,410 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,417 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,439 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,442 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,468 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:19:15,493 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:19:15,513 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:20:01,885 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:20:01,899 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:20:01,900 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:20:05,623 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:48,209 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:49,562 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:51,918 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:52,152 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:52,474 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:52,722 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:53,503 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:53,503 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:53,503 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:56,201 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:24:56,988 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:08,977 - INFO - [Upload 02] [SUCCESS] Finished in 470.284s (0.43 MB/s)
+2025-12-19 12:25:09,408 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:09,411 - INFO - [Upload 05] [SUCCESS] Finished in 470.690s (0.43 MB/s)
+2025-12-19 12:25:10,787 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:10,790 - INFO - [Upload 01] [SUCCESS] Finished in 472.099s (0.43 MB/s)
+2025-12-19 12:25:11,513 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:11,515 - INFO - [Upload 09] [SUCCESS] Finished in 472.741s (0.43 MB/s)
+2025-12-19 12:25:12,049 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:12,054 - INFO - [Upload 06] [SUCCESS] Finished in 473.329s (0.43 MB/s)
+2025-12-19 12:25:16,634 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:16,640 - INFO - [Upload 07] [SUCCESS] Finished in 477.897s (0.42 MB/s)
+2025-12-19 12:25:16,673 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:16,675 - INFO - [Upload 04] [SUCCESS] Finished in 477.978s (0.42 MB/s)
+2025-12-19 12:25:18,916 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:18,924 - INFO - [Upload 10] [SUCCESS] Finished in 480.148s (0.42 MB/s)
+2025-12-19 12:25:19,275 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:19,279 - INFO - [Upload 08] [SUCCESS] Finished in 480.522s (0.42 MB/s)
+2025-12-19 12:25:20,299 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:25:20,303 - INFO - [Upload 03] [SUCCESS] Finished in 481.608s (0.42 MB/s)
+2025-12-19 12:25:20,310 - INFO - ============================================================
+2025-12-19 12:25:20,310 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 12:25:20,310 - INFO - ============================================================
+2025-12-19 12:25:20,310 - INFO - Successful uploads: 10/10
+2025-12-19 12:25:20,311 - INFO - Failed uploads: 0
+2025-12-19 12:25:20,311 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 12:25:20,311 - INFO - Total wall-clock time: 481.625 seconds
+2025-12-19 12:25:20,311 - INFO - Total throughput: 4.18 MB/s
+2025-12-19 12:25:20,311 - INFO - Average individual upload time: 475.730 seconds
+2025-12-19 12:25:20,312 - INFO - Average individual upload speed: 0.42 MB/s
+2025-12-19 12:25:20,312 - INFO - ============================================================
+2025-12-19 12:25:20,312 - INFO - TEST COMPLETED
+2025-12-19 12:25:20,312 - INFO - ============================================================
+2025-12-19 12:26:08,584 - INFO - ============================================================
+2025-12-19 12:26:08,584 - INFO - Three Node Delay 2000ms 500ms
+2025-12-19 12:26:08,585 - INFO - ============================================================
+2025-12-19 12:26:08,585 - INFO - ============================================================
+2025-12-19 12:26:08,585 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:26:08,585 - INFO - Timestamp: 2025-12-19 05:26:08
+2025-12-19 12:26:08,585 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:26:08,585 - INFO - Bucket: test-bucket
+2025-12-19 12:26:08,585 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:26:08,585 - INFO - Parallel Uploads: 10
+2025-12-19 12:26:08,585 - INFO - ============================================================
+2025-12-19 12:26:08,586 - INFO - MinIO client initialized successfully
+2025-12-19 12:26:13,284 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 12:26:13,284 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:26:13,286 - INFO - ------------------------------------------------------------
+2025-12-19 12:26:13,288 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,288 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,288 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,294 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,309 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,323 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,329 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,353 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,354 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:26:13,371 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:30:23,072 - INFO - 
+Test interrupted by user
+2025-12-19 12:36:08,659 - INFO - ============================================================
+2025-12-19 12:36:08,660 - INFO - Single Node Delay 800ms 400ms
+2025-12-19 12:36:08,660 - INFO - ============================================================
+2025-12-19 12:36:08,660 - INFO - ============================================================
+2025-12-19 12:36:08,660 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:36:08,660 - INFO - Timestamp: 2025-12-19 05:36:08
+2025-12-19 12:36:08,660 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:36:08,661 - INFO - Bucket: test-bucket
+2025-12-19 12:36:08,661 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:36:08,661 - INFO - Parallel Uploads: 10
+2025-12-19 12:36:08,661 - INFO - ============================================================
+2025-12-19 12:36:08,661 - INFO - MinIO client initialized successfully
+2025-12-19 12:36:18,592 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 12:36:18,593 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:36:18,593 - INFO - ------------------------------------------------------------
+2025-12-19 12:36:18,594 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,595 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,596 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,604 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,608 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,627 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,631 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,651 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,661 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:36:18,676 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:39:11,636 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,639 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,663 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,664 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,665 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,689 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,690 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,704 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,707 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,739 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:11,763 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:12,770 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:12,771 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:12,836 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,074 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,586 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,603 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,604 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,608 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,609 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,611 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,611 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,654 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,655 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,656 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,711 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,812 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:15,868 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:39:19,487 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,509 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,510 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,510 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,515 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,520 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,527 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,527 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,527 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,536 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:19,703 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,080 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,155 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,157 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,158 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,137 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,136 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:20,136 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:22,578 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:23,126 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:23,130 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:23,205 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:23,210 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:23,359 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:39:23,886 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:24,879 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,141 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,142 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,143 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,147 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,237 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,324 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:28,562 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,567 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,568 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,781 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,787 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,793 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,797 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:29,809 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 12:39:29,833 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 12:39:29,928 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 6
+2025-12-19 12:39:31,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,219 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,241 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,402 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,880 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,888 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:31,890 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,040 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,041 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,049 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,049 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,085 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,134 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,323 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:32,625 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,112 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,118 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,125 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,130 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,131 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,144 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:36,148 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:37,464 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-12-19 12:39:37,471 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-12-19 12:39:40,205 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,271 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,287 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,262 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,271 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,273 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,275 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,275 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,255 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,281 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,262 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:40,297 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:41,319 - INFO - [Upload 10] [SUCCESS] Finished in 202.642s (0.99 MB/s)
+2025-12-19 12:39:41,343 - INFO - [Upload 07] [SUCCESS] Finished in 202.709s (0.99 MB/s)
+2025-12-19 12:39:41,417 - INFO - [Upload 08] [SUCCESS] Finished in 202.765s (0.99 MB/s)
+2025-12-19 12:39:41,575 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:41,580 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:41,581 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:41,607 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:41,736 - INFO - [Upload 02] [SUCCESS] Finished in 203.139s (0.99 MB/s)
+2025-12-19 12:39:41,852 - INFO - [Upload 06] [SUCCESS] Finished in 203.224s (0.99 MB/s)
+2025-12-19 12:39:41,986 - INFO - [Upload 04] [SUCCESS] Finished in 203.377s (0.99 MB/s)
+2025-12-19 12:39:42,043 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:42,049 - INFO - [Upload 09] [SUCCESS] Finished in 203.384s (0.99 MB/s)
+2025-12-19 12:39:42,072 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:42,091 - INFO - [Upload 03] [SUCCESS] Finished in 203.494s (0.99 MB/s)
+2025-12-19 12:39:42,093 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:42,095 - INFO - [Upload 01] [SUCCESS] Finished in 203.499s (0.99 MB/s)
+2025-12-19 12:39:42,104 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:39:42,107 - INFO - [Upload 05] [SUCCESS] Finished in 203.494s (0.99 MB/s)
+2025-12-19 12:39:42,119 - INFO - ============================================================
+2025-12-19 12:39:42,119 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 12:39:42,120 - INFO - ============================================================
+2025-12-19 12:39:42,120 - INFO - Successful uploads: 10/10
+2025-12-19 12:39:42,120 - INFO - Failed uploads: 0
+2025-12-19 12:39:42,120 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 12:39:42,120 - INFO - Total wall-clock time: 203.526 seconds
+2025-12-19 12:39:42,120 - INFO - Total throughput: 9.90 MB/s
+2025-12-19 12:39:42,121 - INFO - Average individual upload time: 203.173 seconds
+2025-12-19 12:39:42,121 - INFO - Average individual upload speed: 0.99 MB/s
+2025-12-19 12:39:42,121 - INFO - ============================================================
+2025-12-19 12:39:42,121 - INFO - TEST COMPLETED
+2025-12-19 12:39:42,121 - INFO - ============================================================
+2025-12-19 12:55:09,254 - INFO - ============================================================
+2025-12-19 12:55:09,254 - INFO - Two Node Delay 800ms 400ms
+2025-12-19 12:55:09,254 - INFO - ============================================================
+2025-12-19 12:55:09,254 - INFO - ============================================================
+2025-12-19 12:55:09,255 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 12:55:09,255 - INFO - Timestamp: 2025-12-19 05:55:09
+2025-12-19 12:55:09,255 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 12:55:09,255 - INFO - Bucket: test-bucket
+2025-12-19 12:55:09,255 - INFO - Test File: data_test_200mb.txt
+2025-12-19 12:55:09,255 - INFO - Parallel Uploads: 10
+2025-12-19 12:55:09,255 - INFO - ============================================================
+2025-12-19 12:55:09,256 - INFO - MinIO client initialized successfully
+2025-12-19 12:55:33,693 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 12:55:33,693 - INFO - Starting 10 parallel uploads...
+2025-12-19 12:55:33,693 - INFO - ------------------------------------------------------------
+2025-12-19 12:55:33,694 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,713 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,714 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,717 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,739 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,744 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,746 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,759 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,775 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:33,776 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 12:55:58,111 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,121 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,130 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,132 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,142 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,154 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,183 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,191 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 12:55:58,219 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:01:07,579 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:01:23,082 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:01:23,159 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:01:50,128 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:01:50,165 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:03,628 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:03,629 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:03,659 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:03,801 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:31,066 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:34,004 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:49,306 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:49,308 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:49,308 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:49,316 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:02:49,323 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:05,615 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:17,307 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:17,345 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:17,348 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:22,993 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:22,996 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 13:03:32,555 - INFO - [Upload 06] [SUCCESS] Finished in 478.779s (0.42 MB/s)
+2025-12-19 13:03:40,468 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:40,476 - INFO - [Upload 05] [SUCCESS] Finished in 486.737s (0.41 MB/s)
+2025-12-19 13:03:49,054 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:49,058 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:49,062 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:49,064 - INFO - [Upload 02] [SUCCESS] Finished in 495.350s (0.41 MB/s)
+2025-12-19 13:03:49,065 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:49,065 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:03:49,070 - INFO - [Upload 10] [SUCCESS] Finished in 495.284s (0.41 MB/s)
+2025-12-19 13:03:49,073 - INFO - [Upload 01] [SUCCESS] Finished in 495.364s (0.41 MB/s)
+2025-12-19 13:03:49,078 - INFO - [Upload 03] [SUCCESS] Finished in 495.363s (0.41 MB/s)
+2025-12-19 13:04:12,752 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:04:12,752 - INFO - [Upload 08] [SUCCESS] Finished in 518.969s (0.39 MB/s)
+2025-12-19 13:04:12,752 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:04:12,753 - INFO - [Upload 04] [SUCCESS] Finished in 519.034s (0.39 MB/s)
+2025-12-19 13:04:12,754 - INFO - [Upload 07] [SUCCESS] Finished in 519.004s (0.39 MB/s)
+2025-12-19 13:04:54,520 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:04:54,524 - INFO - [Upload 09] [SUCCESS] Finished in 560.738s (0.36 MB/s)
+2025-12-19 13:04:54,532 - INFO - ============================================================
+2025-12-19 13:04:54,533 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 13:04:54,533 - INFO - ============================================================
+2025-12-19 13:04:54,533 - INFO - Successful uploads: 10/10
+2025-12-19 13:04:54,533 - INFO - Failed uploads: 0
+2025-12-19 13:04:54,534 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 13:04:54,534 - INFO - Total wall-clock time: 560.839 seconds
+2025-12-19 13:04:54,534 - INFO - Total throughput: 3.59 MB/s
+2025-12-19 13:04:54,534 - INFO - Average individual upload time: 506.462 seconds
+2025-12-19 13:04:54,534 - INFO - Average individual upload speed: 0.40 MB/s
+2025-12-19 13:04:54,535 - INFO - ============================================================
+2025-12-19 13:04:54,535 - INFO - TEST COMPLETED
+2025-12-19 13:04:54,535 - INFO - ============================================================
+2025-12-19 13:27:15,671 - INFO - ============================================================
+2025-12-19 13:27:15,671 - INFO - Single Node Delay 800ms 400ms
+2025-12-19 13:27:15,671 - INFO - ============================================================
+2025-12-19 13:27:15,671 - INFO - ============================================================
+2025-12-19 13:27:15,672 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 13:27:15,672 - INFO - Timestamp: 2025-12-19 06:27:15
+2025-12-19 13:27:15,672 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 13:27:15,672 - INFO - Bucket: test-bucket
+2025-12-19 13:27:15,672 - INFO - Test File: data_test_200mb.txt
+2025-12-19 13:27:15,672 - INFO - Parallel Uploads: 10
+2025-12-19 13:27:15,672 - INFO - ============================================================
+2025-12-19 13:27:15,673 - INFO - MinIO client initialized successfully
+2025-12-19 13:27:22,116 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 13:27:22,116 - INFO - Starting 10 parallel uploads...
+2025-12-19 13:27:22,116 - INFO - ------------------------------------------------------------
+2025-12-19 13:27:22,117 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,119 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,120 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,121 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,126 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,133 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,152 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,159 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,166 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:22,183 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:27:49,798 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:49,809 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:49,814 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:49,814 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:49,902 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 13:27:49,819 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,852 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,866 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,899 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,905 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,905 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,905 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,822 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:27:50,937 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:28:34,058 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:28:34,065 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:28:34,062 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:28:34,083 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 13:28:34,085 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:33:54,792 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:40,163 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:40,174 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:48,810 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:48,812 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:48,814 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:48,884 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:48,885 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:49,729 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,000 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,000 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,002 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,002 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,665 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:40:54,671 - INFO - [Upload 07] [SUCCESS] Finished in 812.511s (0.25 MB/s)
+2025-12-19 13:41:13,233 - INFO - [Upload 01] [SUCCESS] Finished in 831.114s (0.24 MB/s)
+2025-12-19 13:41:13,254 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:13,255 - INFO - [Upload 10] [SUCCESS] Finished in 831.058s (0.24 MB/s)
+2025-12-19 13:41:13,261 - INFO - [Upload 08] [SUCCESS] Finished in 831.100s (0.24 MB/s)
+2025-12-19 13:41:18,222 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:18,227 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:18,230 - INFO - [Upload 03] [SUCCESS] Finished in 836.109s (0.24 MB/s)
+2025-12-19 13:41:18,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:18,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:18,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:18,234 - INFO - [Upload 06] [SUCCESS] Finished in 836.099s (0.24 MB/s)
+2025-12-19 13:41:18,239 - INFO - [Upload 04] [SUCCESS] Finished in 836.106s (0.24 MB/s)
+2025-12-19 13:41:18,242 - INFO - [Upload 05] [SUCCESS] Finished in 836.109s (0.24 MB/s)
+2025-12-19 13:41:18,245 - INFO - [Upload 09] [SUCCESS] Finished in 836.079s (0.24 MB/s)
+2025-12-19 13:41:22,997 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:41:23,000 - INFO - [Upload 02] [SUCCESS] Finished in 840.880s (0.24 MB/s)
+2025-12-19 13:41:23,006 - INFO - ============================================================
+2025-12-19 13:41:23,006 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 13:41:23,006 - INFO - ============================================================
+2025-12-19 13:41:23,006 - INFO - Successful uploads: 10/10
+2025-12-19 13:41:23,007 - INFO - Failed uploads: 0
+2025-12-19 13:41:23,007 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 13:41:23,007 - INFO - Total wall-clock time: 840.889 seconds
+2025-12-19 13:41:23,007 - INFO - Total throughput: 2.40 MB/s
+2025-12-19 13:41:23,007 - INFO - Average individual upload time: 832.716 seconds
+2025-12-19 13:41:23,007 - INFO - Average individual upload speed: 0.24 MB/s
+2025-12-19 13:41:23,007 - INFO - ============================================================
+2025-12-19 13:41:23,008 - INFO - TEST COMPLETED
+2025-12-19 13:41:23,008 - INFO - ============================================================
+2025-12-19 13:46:11,636 - INFO - ============================================================
+2025-12-19 13:46:11,637 - INFO - Two Node Delay 800ms 400ms
+2025-12-19 13:46:11,638 - INFO - ============================================================
+2025-12-19 13:46:11,638 - INFO - ============================================================
+2025-12-19 13:46:11,638 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 13:46:11,638 - INFO - Timestamp: 2025-12-19 06:46:11
+2025-12-19 13:46:11,638 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 13:46:11,638 - INFO - Bucket: test-bucket
+2025-12-19 13:46:11,639 - INFO - Test File: data_test_200mb.txt
+2025-12-19 13:46:11,639 - INFO - Parallel Uploads: 10
+2025-12-19 13:46:11,639 - INFO - ============================================================
+2025-12-19 13:46:11,639 - INFO - MinIO client initialized successfully
+2025-12-19 13:46:23,935 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 13:46:23,936 - INFO - Starting 10 parallel uploads...
+2025-12-19 13:46:23,936 - INFO - ------------------------------------------------------------
+2025-12-19 13:46:23,938 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,949 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,952 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,954 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,975 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,982 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:23,994 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:24,006 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:24,020 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:46:24,070 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 13:47:53,317 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,418 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,328 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,343 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,353 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,377 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,369 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,386 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,390 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,418 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,418 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,418 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,420 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:47:53,321 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,643 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,658 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,668 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,677 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,686 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,686 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,686 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,687 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,687 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,687 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,703 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,707 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,718 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,725 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,738 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,739 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,762 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:32,804 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,809 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,814 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,814 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,815 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,816 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,846 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:49:52,828 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:50:04,074 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,391 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,402 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,404 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,411 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,424 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,426 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 13:57:12,426 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,857 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,861 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,866 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,872 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,875 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,880 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,894 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,909 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,912 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,935 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:02,917 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,442 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,443 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,447 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,443 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,444 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,444 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,445 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,446 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,446 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:00:55,444 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:01:39,302 - INFO - [Upload 09] [SUCCESS] Finished in 915.277s (0.22 MB/s)
+2025-12-19 14:01:39,307 - INFO - [Upload 04] [SUCCESS] Finished in 915.349s (0.22 MB/s)
+2025-12-19 14:01:39,308 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:01:39,308 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:01:39,315 - INFO - [Upload 10] [SUCCESS] Finished in 915.244s (0.22 MB/s)
+2025-12-19 14:01:39,309 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:01:39,314 - INFO - [Upload 03] [SUCCESS] Finished in 915.357s (0.22 MB/s)
+2025-12-19 14:01:39,316 - INFO - [Upload 01] [SUCCESS] Finished in 915.378s (0.22 MB/s)
+2025-12-19 14:02:30,061 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:02:30,066 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:02:30,070 - INFO - [Upload 07] [SUCCESS] Finished in 966.073s (0.21 MB/s)
+2025-12-19 14:02:30,072 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:02:30,073 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:02:30,075 - INFO - [Upload 06] [SUCCESS] Finished in 966.087s (0.21 MB/s)
+2025-12-19 14:02:30,081 - INFO - [Upload 05] [SUCCESS] Finished in 966.101s (0.21 MB/s)
+2025-12-19 14:02:30,086 - INFO - [Upload 08] [SUCCESS] Finished in 966.065s (0.21 MB/s)
+2025-12-19 14:03:00,061 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:03:00,064 - INFO - [Upload 02] [SUCCESS] Finished in 996.114s (0.20 MB/s)
+2025-12-19 14:03:00,074 - INFO - ============================================================
+2025-12-19 14:03:00,075 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 14:03:00,075 - INFO - ============================================================
+2025-12-19 14:03:00,076 - INFO - Successful uploads: 10/10
+2025-12-19 14:03:00,076 - INFO - Failed uploads: 0
+2025-12-19 14:03:00,076 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 14:03:00,076 - INFO - Total wall-clock time: 996.138 seconds
+2025-12-19 14:03:00,076 - INFO - Total throughput: 2.02 MB/s
+2025-12-19 14:03:00,077 - INFO - Average individual upload time: 943.704 seconds
+2025-12-19 14:03:00,077 - INFO - Average individual upload speed: 0.21 MB/s
+2025-12-19 14:03:00,077 - INFO - ============================================================
+2025-12-19 14:03:00,077 - INFO - TEST COMPLETED
+2025-12-19 14:03:00,077 - INFO - ============================================================
+2025-12-19 14:10:14,688 - INFO - ============================================================
+2025-12-19 14:10:14,689 - INFO - No Delay
+2025-12-19 14:10:14,689 - INFO - ============================================================
+2025-12-19 14:10:14,689 - INFO - ============================================================
+2025-12-19 14:10:14,690 - INFO - MINIO PARALLEL UPLOAD TEST - STARTING
+2025-12-19 14:10:14,690 - INFO - Timestamp: 2025-12-19 07:10:14
+2025-12-19 14:10:14,690 - INFO - MinIO Endpoint: localhost:9000
+2025-12-19 14:10:14,690 - INFO - Bucket: test-bucket
+2025-12-19 14:10:14,690 - INFO - Test File: data_test_200mb.txt
+2025-12-19 14:10:14,691 - INFO - Parallel Uploads: 10
+2025-12-19 14:10:14,691 - INFO - ============================================================
+2025-12-19 14:10:14,691 - INFO - MinIO client initialized successfully
+2025-12-19 14:10:14,710 - INFO - Bucket 'test-bucket' already exists
+2025-12-19 14:10:14,710 - INFO - Starting 10 parallel uploads...
+2025-12-19 14:10:14,711 - INFO - ------------------------------------------------------------
+2025-12-19 14:10:14,712 - INFO - [Upload 1] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,713 - INFO - [Upload 2] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,714 - INFO - [Upload 3] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,714 - INFO - [Upload 4] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,715 - INFO - [Upload 5] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,719 - INFO - [Upload 6] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,723 - INFO - [Upload 7] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,725 - INFO - [Upload 8] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,783 - INFO - [Upload 9] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:14,820 - INFO - [Upload 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:10:21,775 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,196 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,209 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,210 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,199 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,201 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,725 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:22,743 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 4
+2025-12-19 14:10:25,031 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:25,449 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:25,465 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:25,749 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:25,832 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:26,835 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:26,838 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:26,864 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:26,883 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:26,886 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:26,977 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 14:10:28,904 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:28,912 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:28,938 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,070 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,970 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,083 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,090 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,092 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,139 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 14:10:29,670 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,187 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 14:10:29,333 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 14:10:29,794 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,903 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,302 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 7
+2025-12-19 14:10:29,507 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:29,523 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:29,910 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:30,919 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:30,921 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:34,175 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,233 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,287 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,289 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,290 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,291 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,291 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,292 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,292 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,293 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,486 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:34,930 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:35,136 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:35,245 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:35,248 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:35,310 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:35,682 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,021 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,298 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,299 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,300 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,301 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,302 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,313 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 9
+2025-12-19 14:10:49,352 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,355 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,376 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:49,358 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,270 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 8
+2025-12-19 14:10:50,286 - INFO - [Upload 04] [SUCCESS] Finished in 35.560s (5.66 MB/s)
+2025-12-19 14:10:50,500 - INFO - [Upload 09] [SUCCESS] Finished in 35.717s (5.64 MB/s)
+2025-12-19 14:10:50,542 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,542 - INFO - [Upload 01] [SUCCESS] Finished in 35.828s (5.62 MB/s)
+2025-12-19 14:10:50,543 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,544 - INFO - [Upload 05] [SUCCESS] Finished in 35.793s (5.63 MB/s)
+2025-12-19 14:10:50,589 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,590 - INFO - [Upload 07] [SUCCESS] Finished in 35.834s (5.62 MB/s)
+2025-12-19 14:10:50,851 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,864 - INFO - [Upload 10] [SUCCESS] Finished in 36.027s (5.59 MB/s)
+2025-12-19 14:10:50,867 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,874 - INFO - [Upload 03] [SUCCESS] Finished in 36.154s (5.57 MB/s)
+2025-12-19 14:10:50,904 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,912 - INFO - [Upload 06] [SUCCESS] Finished in 36.158s (5.57 MB/s)
+2025-12-19 14:10:50,920 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,935 - INFO - [Upload 08] [SUCCESS] Finished in 36.174s (5.57 MB/s)
+2025-12-19 14:10:50,955 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 10
+2025-12-19 14:10:50,956 - INFO - [Upload 02] [SUCCESS] Finished in 36.238s (5.56 MB/s)
+2025-12-19 14:10:50,966 - INFO - ============================================================
+2025-12-19 14:10:50,967 - INFO - PARALLEL UPLOAD TEST SUMMARY
+2025-12-19 14:10:50,967 - INFO - ============================================================
+2025-12-19 14:10:50,967 - INFO - Successful uploads: 10/10
+2025-12-19 14:10:50,968 - INFO - Failed uploads: 0
+2025-12-19 14:10:50,968 - INFO - Total data uploaded: 2014.45 MB
+2025-12-19 14:10:50,968 - INFO - Total wall-clock time: 36.256 seconds
+2025-12-19 14:10:50,968 - INFO - Total throughput: 55.56 MB/s
+2025-12-19 14:10:50,969 - INFO - Average individual upload time: 35.948 seconds
+2025-12-19 14:10:50,969 - INFO - Average individual upload speed: 5.60 MB/s
+2025-12-19 14:10:50,969 - INFO - ============================================================
+2025-12-19 14:10:50,970 - INFO - TEST COMPLETED
+2025-12-19 14:10:50,970 - INFO - ============================================================

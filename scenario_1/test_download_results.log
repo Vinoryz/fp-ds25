@@ -1,0 +1,353 @@
+2025-12-19 14:24:10,952 - INFO - ============================================================
+2025-12-19 14:24:10,953 - INFO - No Delay
+2025-12-19 14:24:10,953 - INFO - ============================================================
+2025-12-19 14:24:10,953 - INFO - ============================================================
+2025-12-19 14:24:10,953 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 14:24:10,953 - INFO - Timestamp: 2025-12-19 07:24:10
+2025-12-19 14:24:10,953 - INFO - Parallel Downloads: 10
+2025-12-19 14:24:10,954 - INFO - ============================================================
+2025-12-19 14:24:10,954 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 14:24:11,065 - INFO - Directory ready: downloaded_files
+2025-12-19 14:24:11,067 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 14:24:11,098 - INFO - Found 10 objects. Starting pool...
+2025-12-19 14:24:11,098 - INFO - ------------------------------------------------------------
+2025-12-19 14:24:11,133 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,137 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,141 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,154 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,179 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,169 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,169 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,170 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,168 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:11,200 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:24:30,392 - INFO - [Download 01] [SUCCESS] Finished in 19.254s (10.46 MB/s)
+2025-12-19 14:24:30,650 - INFO - [Download 09] [SUCCESS] Finished in 19.470s (10.35 MB/s)
+2025-12-19 14:24:30,777 - INFO - [Download 06] [SUCCESS] Finished in 19.525s (10.32 MB/s)
+2025-12-19 14:24:30,783 - INFO - [Download 05] [SUCCESS] Finished in 19.580s (10.29 MB/s)
+2025-12-19 14:24:30,824 - INFO - [Download 07] [SUCCESS] Finished in 19.597s (10.28 MB/s)
+2025-12-19 14:24:30,832 - INFO - [Download 04] [SUCCESS] Finished in 19.687s (10.23 MB/s)
+2025-12-19 14:24:30,846 - INFO - [Download 03] [SUCCESS] Finished in 19.616s (10.27 MB/s)
+2025-12-19 14:24:30,862 - INFO - [Download 10] [SUCCESS] Finished in 19.662s (10.25 MB/s)
+2025-12-19 14:24:30,869 - INFO - [Download 02] [SUCCESS] Finished in 19.736s (10.21 MB/s)
+2025-12-19 14:24:30,875 - INFO - [Download 08] [SUCCESS] Finished in 19.670s (10.24 MB/s)
+2025-12-19 14:24:30,879 - INFO - ============================================================
+2025-12-19 14:24:30,879 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 14:24:30,880 - INFO - ============================================================
+2025-12-19 14:24:30,880 - INFO - Successful downloads: 10/10
+2025-12-19 14:24:30,880 - INFO - Failed downloads: 0
+2025-12-19 14:24:30,880 - INFO - Total data downloaded: 2014.45 MB
+2025-12-19 14:24:30,880 - INFO - Total wall-clock time: 19.780 seconds
+2025-12-19 14:24:30,881 - INFO - Total throughput: 101.84 MB/s
+2025-12-19 14:24:30,881 - INFO - Average individual download time: 19.580 seconds
+2025-12-19 14:24:30,881 - INFO - Average individual download speed: 10.29 MB/s
+2025-12-19 14:24:30,881 - INFO - ============================================================
+2025-12-19 14:24:30,881 - INFO - TEST COMPLETED
+2025-12-19 14:24:30,881 - INFO - ============================================================
+2025-12-19 14:29:38,324 - INFO - ============================================================
+2025-12-19 14:29:38,324 - INFO - Single Node Delay 2000ms 500ms
+2025-12-19 14:29:38,325 - INFO - ============================================================
+2025-12-19 14:29:38,325 - INFO - ============================================================
+2025-12-19 14:29:38,325 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 14:29:38,325 - INFO - Timestamp: 2025-12-19 07:29:38
+2025-12-19 14:29:38,325 - INFO - Parallel Downloads: 10
+2025-12-19 14:29:38,325 - INFO - ============================================================
+2025-12-19 14:29:38,325 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 14:29:38,766 - INFO - Directory ready: downloaded_files
+2025-12-19 14:29:38,766 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 14:29:47,767 - INFO - Found 10 objects. Starting pool...
+2025-12-19 14:29:47,767 - INFO - ------------------------------------------------------------
+2025-12-19 14:29:50,316 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:50,874 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,281 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,285 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,297 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,294 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,294 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,297 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,298 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:51,296 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:29:59,782 - INFO - [Download 01] [SUCCESS] Finished in 9.465s (21.28 MB/s)
+2025-12-19 14:30:01,810 - INFO - [Download 07] [SUCCESS] Finished in 10.505s (19.18 MB/s)
+2025-12-19 14:30:01,958 - INFO - [Download 06] [SUCCESS] Finished in 10.660s (18.90 MB/s)
+2025-12-19 14:31:20,214 - ERROR - [Download 04] [FAILED] Error downloading 04_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:31:23,453 - ERROR - [Download 10] [FAILED] Error downloading 10_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:31:30,152 - ERROR - [Download 05] [FAILED] Error downloading 05_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:31:34,654 - ERROR - [Download 02] [FAILED] Error downloading 02_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:32:15,200 - ERROR - [Download 03] [FAILED] Error downloading 03_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:33:05,534 - ERROR - [Download 09] [FAILED] Error downloading 09_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,075 - ERROR - [Download 08] [FAILED] Error downloading 08_data_test_200mb.txt: ('Connection broken: IncompleteRead(14680064 bytes read, 196550233 more expected)', IncompleteRead(14680064 bytes read, 196550233 more expected))
+2025-12-19 14:37:33,078 - INFO - ============================================================
+2025-12-19 14:37:33,079 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 14:37:33,079 - INFO - ============================================================
+2025-12-19 14:37:33,079 - INFO - Successful downloads: 3/10
+2025-12-19 14:37:33,079 - INFO - Failed downloads: 7
+2025-12-19 14:37:33,080 - INFO - Total data downloaded: 604.33 MB
+2025-12-19 14:37:33,080 - INFO - Total wall-clock time: 465.311 seconds
+2025-12-19 14:37:33,080 - INFO - Total throughput: 1.30 MB/s
+2025-12-19 14:37:33,080 - INFO - Average individual download time: 10.210 seconds
+2025-12-19 14:37:33,080 - INFO - Average individual download speed: 19.79 MB/s
+2025-12-19 14:37:33,081 - INFO - 
+Errors Detail:
+2025-12-19 14:37:33,081 - INFO -  - ID 4: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,082 - INFO -  - ID 10: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,082 - INFO -  - ID 5: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,082 - INFO -  - ID 2: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,083 - INFO -  - ID 3: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,083 - INFO -  - ID 9: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:37:33,083 - INFO -  - ID 8: ('Connection broken: IncompleteRead(14680064 bytes read, 196550233 more expected)', IncompleteRead(14680064 bytes read, 196550233 more expected))
+2025-12-19 14:37:33,084 - INFO - ============================================================
+2025-12-19 14:37:33,084 - INFO - TEST COMPLETED
+2025-12-19 14:37:33,084 - INFO - ============================================================
+2025-12-19 14:39:27,579 - INFO - ============================================================
+2025-12-19 14:39:27,579 - INFO - Single Node Delay 2000ms 500ms
+2025-12-19 14:39:27,579 - INFO - ============================================================
+2025-12-19 14:39:27,579 - INFO - ============================================================
+2025-12-19 14:39:27,579 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 14:39:27,579 - INFO - Timestamp: 2025-12-19 07:39:27
+2025-12-19 14:39:27,580 - INFO - Parallel Downloads: 10
+2025-12-19 14:39:27,580 - INFO - ============================================================
+2025-12-19 14:39:27,580 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 14:39:27,687 - INFO - Directory ready: downloaded_files
+2025-12-19 14:39:27,688 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 14:39:40,537 - INFO - Found 10 objects. Starting pool...
+2025-12-19 14:39:40,538 - INFO - ------------------------------------------------------------
+2025-12-19 14:39:55,017 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,019 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,019 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,021 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,329 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,330 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,526 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,529 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,531 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:39:55,693 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:40:12,908 - INFO - [Download 01] [SUCCESS] Finished in 17.886s (11.26 MB/s)
+2025-12-19 14:40:13,100 - INFO - [Download 06] [SUCCESS] Finished in 17.565s (11.47 MB/s)
+2025-12-19 14:40:13,144 - INFO - [Download 07] [SUCCESS] Finished in 17.811s (11.31 MB/s)
+2025-12-19 14:41:29,723 - ERROR - [Download 03] [FAILED] Error downloading 03_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:41:34,448 - ERROR - [Download 02] [FAILED] Error downloading 02_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:41:53,035 - ERROR - [Download 05] [FAILED] Error downloading 05_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:41:55,181 - ERROR - [Download 04] [FAILED] Error downloading 04_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:41:55,183 - ERROR - [Download 10] [FAILED] Error downloading 10_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:42:38,471 - ERROR - [Download 09] [FAILED] Error downloading 09_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:47:23,275 - INFO - 
+Test interrupted by user
+2025-12-19 14:47:53,488 - INFO - ============================================================
+2025-12-19 14:47:53,488 - INFO - Two Node Delay 2000ms 500ms
+2025-12-19 14:47:53,488 - INFO - ============================================================
+2025-12-19 14:47:53,488 - INFO - ============================================================
+2025-12-19 14:47:53,489 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 14:47:53,489 - INFO - Timestamp: 2025-12-19 07:47:53
+2025-12-19 14:47:53,489 - INFO - Parallel Downloads: 10
+2025-12-19 14:47:53,489 - INFO - ============================================================
+2025-12-19 14:47:53,489 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 14:47:53,575 - INFO - Directory ready: downloaded_files
+2025-12-19 14:47:53,576 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 14:48:12,406 - INFO - Found 10 objects. Starting pool...
+2025-12-19 14:48:12,406 - INFO - ------------------------------------------------------------
+2025-12-19 14:48:19,584 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:19,891 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:19,892 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:19,893 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:20,337 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:20,342 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:20,343 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:20,344 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:20,346 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:48:22,029 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 14:50:11,552 - ERROR - [Download 01] [FAILED] Error downloading 01_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:50:27,215 - ERROR - [Download 02] [FAILED] Error downloading 02_data_test_200mb.txt: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 14:50:34,479 - ERROR - [Download 09] [FAILED] Error downloading 09_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:50:37,492 - ERROR - [Download 03] [FAILED] Error downloading 03_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:51:20,402 - ERROR - [Download 05] [FAILED] Error downloading 05_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:51:25,097 - ERROR - [Download 07] [FAILED] Error downloading 07_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:51:51,174 - ERROR - [Download 08] [FAILED] Error downloading 08_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:52:24,781 - ERROR - [Download 10] [FAILED] Error downloading 10_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:53:29,950 - ERROR - [Download 04] [FAILED] Error downloading 04_data_test_200mb.txt: ('Connection broken: IncompleteRead(9437184 bytes read, 201793113 more expected)', IncompleteRead(9437184 bytes read, 201793113 more expected))
+2025-12-19 14:56:29,071 - ERROR - [Download 06] [FAILED] Error downloading 06_data_test_200mb.txt: ('Connection broken: IncompleteRead(14680064 bytes read, 196550233 more expected)', IncompleteRead(14680064 bytes read, 196550233 more expected))
+2025-12-19 14:56:29,074 - INFO - ============================================================
+2025-12-19 14:56:29,074 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 14:56:29,074 - INFO - ============================================================
+2025-12-19 14:56:29,075 - INFO - 
+Errors Detail:
+2025-12-19 14:56:29,075 - INFO -  - ID 1: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,075 - INFO -  - ID 2: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 14:56:29,075 - INFO -  - ID 9: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,075 - INFO -  - ID 3: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,075 - INFO -  - ID 5: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,075 - INFO -  - ID 7: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,076 - INFO -  - ID 8: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,076 - INFO -  - ID 10: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 14:56:29,076 - INFO -  - ID 4: ('Connection broken: IncompleteRead(9437184 bytes read, 201793113 more expected)', IncompleteRead(9437184 bytes read, 201793113 more expected))
+2025-12-19 14:56:29,076 - INFO -  - ID 6: ('Connection broken: IncompleteRead(14680064 bytes read, 196550233 more expected)', IncompleteRead(14680064 bytes read, 196550233 more expected))
+2025-12-19 14:56:29,076 - INFO - ============================================================
+2025-12-19 14:56:29,076 - INFO - TEST COMPLETED
+2025-12-19 14:56:29,076 - INFO - ============================================================
+2025-12-19 15:01:29,183 - INFO - ============================================================
+2025-12-19 15:01:29,184 - INFO - Two Node Delay 800ms 400ms
+2025-12-19 15:01:29,184 - INFO - ============================================================
+2025-12-19 15:01:29,184 - INFO - ============================================================
+2025-12-19 15:01:29,184 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 15:01:29,184 - INFO - Timestamp: 2025-12-19 08:01:29
+2025-12-19 15:01:29,184 - INFO - Parallel Downloads: 10
+2025-12-19 15:01:29,184 - INFO - ============================================================
+2025-12-19 15:01:29,184 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 15:01:29,195 - INFO - Directory ready: downloaded_files
+2025-12-19 15:01:29,195 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 15:01:33,369 - INFO - Found 10 objects. Starting pool...
+2025-12-19 15:01:33,369 - INFO - ------------------------------------------------------------
+2025-12-19 15:01:35,376 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,380 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,579 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,580 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,787 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,792 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,793 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,796 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,809 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:35,810 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:01:44,713 - INFO - [Download 01] [SUCCESS] Finished in 9.332s (21.59 MB/s)
+2025-12-19 15:01:45,381 - INFO - [Download 06] [SUCCESS] Finished in 9.571s (21.05 MB/s)
+2025-12-19 15:01:45,787 - INFO - [Download 07] [SUCCESS] Finished in 9.989s (20.17 MB/s)
+2025-12-19 15:02:59,370 - ERROR - [Download 09] [FAILED] Error downloading 09_data_test_200mb.txt: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:03:02,977 - ERROR - [Download 08] [FAILED] Error downloading 08_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:03:31,370 - ERROR - [Download 10] [FAILED] Error downloading 10_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:03:31,555 - ERROR - [Download 03] [FAILED] Error downloading 03_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:03:57,711 - ERROR - [Download 04] [FAILED] Error downloading 04_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:04:29,341 - ERROR - [Download 05] [FAILED] Error downloading 05_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,658 - ERROR - [Download 02] [FAILED] Error downloading 02_data_test_200mb.txt: ('Connection broken: IncompleteRead(9437184 bytes read, 201793113 more expected)', IncompleteRead(9437184 bytes read, 201793113 more expected))
+2025-12-19 15:05:46,661 - INFO - ============================================================
+2025-12-19 15:05:46,661 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 15:05:46,662 - INFO - ============================================================
+2025-12-19 15:05:46,662 - INFO - Successful downloads: 3/10
+2025-12-19 15:05:46,662 - INFO - Failed downloads: 7
+2025-12-19 15:05:46,662 - INFO - Total data downloaded: 604.33 MB
+2025-12-19 15:05:46,662 - INFO - Total wall-clock time: 253.292 seconds
+2025-12-19 15:05:46,662 - INFO - Total throughput: 2.39 MB/s
+2025-12-19 15:05:46,662 - INFO - Average individual download time: 9.631 seconds
+2025-12-19 15:05:46,663 - INFO - Average individual download speed: 20.93 MB/s
+2025-12-19 15:05:46,663 - INFO - 
+Errors Detail:
+2025-12-19 15:05:46,663 - INFO -  - ID 9: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:05:46,663 - INFO -  - ID 8: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,663 - INFO -  - ID 10: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,663 - INFO -  - ID 3: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,663 - INFO -  - ID 4: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,663 - INFO -  - ID 5: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:05:46,664 - INFO -  - ID 2: ('Connection broken: IncompleteRead(9437184 bytes read, 201793113 more expected)', IncompleteRead(9437184 bytes read, 201793113 more expected))
+2025-12-19 15:05:46,664 - INFO - ============================================================
+2025-12-19 15:05:46,664 - INFO - TEST COMPLETED
+2025-12-19 15:05:46,664 - INFO - ============================================================
+2025-12-19 15:06:49,737 - INFO - ============================================================
+2025-12-19 15:06:49,738 - INFO - Single Node Delay 800ms 400ms
+2025-12-19 15:06:49,738 - INFO - ============================================================
+2025-12-19 15:06:49,738 - INFO - ============================================================
+2025-12-19 15:06:49,738 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 15:06:49,738 - INFO - Timestamp: 2025-12-19 08:06:49
+2025-12-19 15:06:49,738 - INFO - Parallel Downloads: 10
+2025-12-19 15:06:49,738 - INFO - ============================================================
+2025-12-19 15:06:49,739 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 15:06:49,890 - INFO - Directory ready: downloaded_files
+2025-12-19 15:06:49,891 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 15:06:54,912 - INFO - Found 10 objects. Starting pool...
+2025-12-19 15:06:54,913 - INFO - ------------------------------------------------------------
+2025-12-19 15:06:57,712 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:57,713 - INFO - [Download 03] Starting: 03_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,098 - INFO - [Download 02] Starting: 02_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,321 - INFO - [Download 04] Starting: 04_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,322 - INFO - [Download 05] Starting: 05_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,501 - INFO - [Download 06] Starting: 06_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,502 - INFO - [Download 07] Starting: 07_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:58,795 - INFO - [Download 08] Starting: 08_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:59,077 - INFO - [Download 09] Starting: 09_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:06:59,079 - INFO - [Download 10] Starting: 10_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:07:09,476 - INFO - [Download 08] [SUCCESS] Finished in 10.681s (18.86 MB/s)
+2025-12-19 15:07:10,076 - INFO - [Download 10] [SUCCESS] Finished in 10.995s (18.32 MB/s)
+2025-12-19 15:08:34,263 - ERROR - [Download 05] [FAILED] Error downloading 05_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:08:40,086 - ERROR - [Download 02] [FAILED] Error downloading 02_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:08:44,629 - ERROR - [Download 01] [FAILED] Error downloading 01_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:08:49,166 - ERROR - [Download 06] [FAILED] Error downloading 06_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:08:49,328 - ERROR - [Download 03] [FAILED] Error downloading 03_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:08:55,565 - ERROR - [Download 09] [FAILED] Error downloading 09_data_test_200mb.txt: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:09:17,265 - ERROR - [Download 07] [FAILED] Error downloading 07_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,001 - ERROR - [Download 04] [FAILED] Error downloading 04_data_test_200mb.txt: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,004 - INFO - ============================================================
+2025-12-19 15:09:54,005 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 15:09:54,005 - INFO - ============================================================
+2025-12-19 15:09:54,005 - INFO - Successful downloads: 2/10
+2025-12-19 15:09:54,005 - INFO - Failed downloads: 8
+2025-12-19 15:09:54,005 - INFO - Total data downloaded: 402.89 MB
+2025-12-19 15:09:54,005 - INFO - Total wall-clock time: 179.091 seconds
+2025-12-19 15:09:54,005 - INFO - Total throughput: 2.25 MB/s
+2025-12-19 15:09:54,005 - INFO - Average individual download time: 10.838 seconds
+2025-12-19 15:09:54,006 - INFO - Average individual download speed: 18.59 MB/s
+2025-12-19 15:09:54,006 - INFO - 
+Errors Detail:
+2025-12-19 15:09:54,006 - INFO -  - ID 5: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,006 - INFO -  - ID 2: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,006 - INFO -  - ID 1: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,006 - INFO -  - ID 6: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,007 - INFO -  - ID 3: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,007 - INFO -  - ID 9: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:09:54,007 - INFO -  - ID 7: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,007 - INFO -  - ID 4: ('Connection broken: IncompleteRead(4194304 bytes read, 207035993 more expected)', IncompleteRead(4194304 bytes read, 207035993 more expected))
+2025-12-19 15:09:54,007 - INFO - ============================================================
+2025-12-19 15:09:54,007 - INFO - TEST COMPLETED
+2025-12-19 15:09:54,007 - INFO - ============================================================
+2025-12-19 15:13:21,372 - INFO - ============================================================
+2025-12-19 15:13:21,372 - INFO - Single Node Delay 800ms 400ms
+2025-12-19 15:13:21,373 - INFO - ============================================================
+2025-12-19 15:13:21,373 - INFO - ============================================================
+2025-12-19 15:13:21,373 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 15:13:21,373 - INFO - Timestamp: 2025-12-19 08:13:21
+2025-12-19 15:13:21,374 - INFO - Parallel Downloads: 1
+2025-12-19 15:13:21,374 - INFO - ============================================================
+2025-12-19 15:13:21,374 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 15:13:21,556 - INFO - Directory ready: downloaded_files
+2025-12-19 15:13:21,557 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 15:13:24,851 - INFO - Found 1 objects. Starting pool...
+2025-12-19 15:13:24,851 - INFO - ------------------------------------------------------------
+2025-12-19 15:13:27,759 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:15:01,133 - ERROR - [Download 01] [FAILED] Error downloading 01_data_test_200mb.txt: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:15:01,135 - INFO - ============================================================
+2025-12-19 15:15:01,136 - INFO - PARALLEL DOWNLOAD TEST SUMMARY
+2025-12-19 15:15:01,136 - INFO - ============================================================
+2025-12-19 15:15:01,136 - INFO - 
+Errors Detail:
+2025-12-19 15:15:01,136 - INFO -  - ID 1: ('Connection broken: IncompleteRead(3145728 bytes read, 208084569 more expected)', IncompleteRead(3145728 bytes read, 208084569 more expected))
+2025-12-19 15:15:01,136 - INFO - ============================================================
+2025-12-19 15:15:01,137 - INFO - TEST COMPLETED
+2025-12-19 15:15:01,137 - INFO - ============================================================
+2025-12-19 15:18:12,301 - INFO - ============================================================
+2025-12-19 15:18:12,302 - INFO - Single Node Delay 5000ms 400ms
+2025-12-19 15:18:12,302 - INFO - ============================================================
+2025-12-19 15:18:12,302 - INFO - ============================================================
+2025-12-19 15:18:12,302 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 15:18:12,302 - INFO - Timestamp: 2025-12-19 08:18:12
+2025-12-19 15:18:12,302 - INFO - Parallel Downloads: 1
+2025-12-19 15:18:12,302 - INFO - ============================================================
+2025-12-19 15:18:12,303 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 15:18:12,305 - INFO - Directory ready: downloaded_files
+2025-12-19 15:18:12,305 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 15:18:30,611 - INFO - Found 1 objects. Starting pool...
+2025-12-19 15:18:30,611 - INFO - ------------------------------------------------------------
+2025-12-19 15:18:40,180 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:27:37,270 - INFO - 
+Test interrupted by user
+2025-12-19 15:27:54,459 - INFO - ============================================================
+2025-12-19 15:27:54,460 - INFO - Single Node Delay 5000ms 400ms
+2025-12-19 15:27:54,460 - INFO - ============================================================
+2025-12-19 15:27:54,460 - INFO - ============================================================
+2025-12-19 15:27:54,460 - INFO - MINIO PARALLEL DOWNLOAD TEST - STARTING
+2025-12-19 15:27:54,460 - INFO - Timestamp: 2025-12-19 08:27:54
+2025-12-19 15:27:54,461 - INFO - Parallel Downloads: 1
+2025-12-19 15:27:54,461 - INFO - ============================================================
+2025-12-19 15:27:54,461 - INFO - Cleaning directory: downloaded_files...
+2025-12-19 15:27:54,482 - INFO - Directory ready: downloaded_files
+2025-12-19 15:27:54,483 - INFO - Listing objects in bucket 'test-bucket'...
+2025-12-19 15:27:56,017 - INFO - Found 1 objects. Starting pool...
+2025-12-19 15:27:56,018 - INFO - ------------------------------------------------------------
+2025-12-19 15:27:56,411 - INFO - [Download 01] Starting: 01_data_test_200mb.txt (201.44 MB)
+2025-12-19 15:49:57,475 - INFO - 
+Test interrupted by user
