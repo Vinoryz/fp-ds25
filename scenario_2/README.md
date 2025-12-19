@@ -25,15 +25,15 @@ Eksperimen dilakukan berdasarkan skenario jumlah node yang mengalami kegagalan. 
 1.  **Phase 1 & 2: Baseline (Healthy State)**
     *   Kondisi: Semua 6 node sehat.
     *   Tindakan: Upload 20 file (Write) dan Download/Verify 20 file (Read).
-2.  **Scenario A: 1 Node Failure**
+2.  **Scenario 2A: 1 Node Failure**
     *   Kondisi: 1 node dimatikan (`minio3`).
     *   **Test Read**: Mencoba membaca data yang diupload saat kondisi sehat.
-    *   **Test Write**: Mencoba mengupload data baru ke dalam cluster.
-3.  **Scenario B: 2 Node Failure**
+    *   **Test Write**: Mencoba mengupload data baru.
+3.  **Scenario 2B: 2 Node Failure**
     *   Kondisi: 2 node dimatikan (`minio3`, `minio5`).
     *   **Test Read**: Mencoba membaca data.
     *   **Test Write**: Mencoba mengupload data baru.
-4.  **Scenario C: 3 Node Failure**
+4.  **Scenario 2C: 3 Node Failure**
     *   Kondisi: 3 node dimatikan (`minio3`, `minio5`, `minio6`).
     *   **Test Read**: Mencoba membaca data.
     *   **Test Write**: Mencoba mengupload data baru.
@@ -75,7 +75,7 @@ Eksperimen dilakukan berdasarkan skenario jumlah node yang mengalami kegagalan. 
         [RESULT] Uploaded 20/20 files in 2.34s
         ```
 
-### 3.2 Scenario A: 1 Node Failure (`minio3` Down)
+### 3.2 Scenario 2A: 1 Node Failure (`minio3` Down)
 *   **Read Availability (Membaca file lama)**:
     *   *Ketersediaan*: **BERHASIL**. MinIO tetap berhasil melayani permintaan BACA (Read) karena jumlah node yang hidup (5 node) masih memenuhi kuorum baca (Read Quorum: 4).
     *   *Observasi Latency*: Terobservasi adanya peningkatan waktu respons (latency) yang signifikan. MinIO membutuhkan waktu beberapa detik (latency spike) untuk mendeteksi kegagalan node sebelum akhirnya sukses mengambil data dari node lain. Setelah node ditandai offline (steady state), latency kembali normal.
@@ -110,7 +110,7 @@ Eksperimen dilakukan berdasarkan skenario jumlah node yang mengalami kegagalan. 
         ```
     
 
-### 3.3 Scenario B: 2 Node Failure (`minio3`, `minio5` Down)
+### 3.3 Scenario 2B: 2 Node Failure (`minio3`, `minio5` Down)
 *   **Read Availability**:
     *   *Ketersediaan*: **BERHASIL**. MinIO masih tetap berhasil melayani permintaan BACA (Read) karena sisa 4 node masih cukup untuk memenuhi Read Quorum.
     *   *Observasi Latency*: Observasi menarik pada fase ini adalah waktu adaptasi yang lebih cepat dibandingkan saat kegagalan satu node. MinIO mendeteksi node kedua offline lebih cepat, sehingga jeda waktu pembacaan lebih singkat dibanding fase sebelumnya.
@@ -143,7 +143,7 @@ Eksperimen dilakukan berdasarkan skenario jumlah node yang mengalami kegagalan. 
         ```log
         2025-12-18T15:52:00.181878053Z Error: Marking minio5:9000 offline temporarily; caused by Get "http://minio5:9000/minio/storage/data/v63/rver?did=05be34ed-937a-4ad0-9502-7a32734886b7&fp=phase3%2Ffile_9.txt&heal=true&incl-fv=false&ovol=&vid=null&vol=scenario2-bucket": dial tcp 172.18.0.4:9000: connect: connection refused (*fmt.wrapError)
         ```
-### 3.4 Scenario C: 3 Node Failure (`minio3`, `minio5`, `minio6` Down)
+### 3.4 Scenario 2C: 3 Node Failure (`minio3`, `minio5`, `minio6` Down)
 *   **Read Availability**:
     *   *Ketersediaan*: **GAGAL**.
     *   *Observasi*: Ketika tiga node mati, MinIO tidak dapat melayani permintaan baca (read) karena jumlah node yang masih aktif (3 node) tidak memenuhi kuorum baca (Read Quorum: 4). MinIO terjebak dalam endless loop atau timeout saat mencoba menghubungi node.
@@ -212,7 +212,7 @@ Eksperimen dilakukan berdasarkan skenario jumlah node yang mengalami kegagalan. 
 ## 4. Analisis dan Pembahasan
 
 ### 4.1 Mekanisme Deteksi Kegagalan & Timeout (Read Operation)
-Berdasarkan observasi di Scenario A (1 Node Fail), MinIO tidak langsung menandai node sebagai *offline* seketika. Terdapat mekanisme timeout untuk mencegah *false positives*.
+Berdasarkan observasi di Scenario 2A (1 Node Fail), MinIO tidak langsung menandai node sebagai *offline* seketika. Terdapat mekanisme timeout untuk mencegah *false positives*.
 
 Temuan eksperimen ini menunjukkan bahwa threshold timeout MinIO berbasis **durasi waktu**, bukan jumlah request yang gagal.
 *   Jika tanpa environment variable `MINIO_DRIVE_MAX_TIMEOUT`, timeout internal adalah **10 detik**.
@@ -272,11 +272,11 @@ Proses *healing object* akan berhenti apabila seluruh node yang sebelumnya mati 
 ### 4.3 Analisis Write Quorum dan Ketersediaan Tulis
 Pada operasi **Write**, MinIO membutuhkan konfirmasi sukses dari sejumlah drive tertentu untuk menganggap operasi berhasil (*Write Quorum*).
 *   Dalam setup Erasure Coding `N=6`, standard **Write Quorum** adalah `N/2 + 1` = **4 Node**.
-*   **Scenario A (5 Node Hidup)**: 5 > 4. Write Berhasil.
-*   **Scenario B (4 Node Hidup)**: 4 == 4. Write Berhasil (Batas kritis).
-*   **Scenario C (3 Node Hidup)**: 3 < 4. Write Gagal.
+*   **Scenario 2A (5 Node Hidup)**: 5 > 4. Write Berhasil.
+*   **Scenario 2B (4 Node Hidup)**: 4 == 4. Write Berhasil (Batas kritis).
+*   **Scenario 2C (3 Node Hidup)**: 3 < 4. Write Gagal.
 
-Hal ini menjelaskan mengapa pada Scenario C, sistem menjadi *Read-Only* atau bahkan *Unavailable* sepenuhnya tergantung konfigurasi, sedangkan di Scenario B sistem masih *Fully Available* meskipun kehilangan 33% infrastruktur.
+Hal ini menjelaskan mengapa pada Scenario 2C, sistem menjadi *Read-Only* atau bahkan *Unavailable* sepenuhnya tergantung konfigurasi, sedangkan di Scenario 2B sistem masih *Fully Available* meskipun kehilangan 33% infrastruktur.
 
 ### 4.4 Konsistensi Data (Strict Consistency)
 MinIO menjamin **Strict Consistency**. Artinya, setelah operasi Write berhasil, data tersebut dijamin dapat langsung dibaca (Read-after-Write).
@@ -289,7 +289,7 @@ MinIO menggunakan algoritma Erasure Coding untuk memecah objek menjadi fragmen d
 *   **Total Set (N)**: 6 Node.
 *   **Konfigurasi**: 4 Data Blocks (K) + 2 Parity Blocks (M).
 *   **Read Quorum (K)**: 4 Node.
-    MinIO memerlukan minimal 4 node aktif untuk merekonstruksi data. Ini menjelaskan mengapa skenario kegagalan 1 dan 2 node (**Scenario A & B**) tetap berhasil (sisa 4 node), sedangkan kegagalan 3 node (**Scenario C**) gagal (sisa 3 node).
+    MinIO memerlukan minimal 4 node aktif untuk merekonstruksi data. Ini menjelaskan mengapa skenario kegagalan 1 dan 2 node (**Scenario 2A & 2B**) tetap berhasil (sisa 4 node), sedangkan kegagalan 3 node (**Scenario 2C**) gagal (sisa 3 node).
 *   **Write Quorum (N/2 + 1)**: 4 Node.
     Operasi tulis memerlukan persetujuan dari minimal 4 node untuk menjamin konsistensi & durabilitas. Sama seperti Read, batas toleransi maksimal adalah kehilangan 2 node.
 
